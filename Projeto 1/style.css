@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Poppins:wght@300;400;500&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    font-family: 'Open Sans', sans-serif;
+    color: #555;
+}
+
+.top-bar {
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    border-bottom: 5px solid #fd8a24;
+}
+
+.conteiner {
+    max-width: 888px;
+    margin: auto;
+    padding: 30px;
+}
+
+.titulo{
+    font-size: 26px;
+    line-height: 64px;
+    color: #111;
+}
+
+.sub {
+    font-size: 12px;
+    font-weight: normal;
+    color: #111;
+}
+
+.author p {
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icon {
+    width: 20px;
+    padding: 10px 10px 10px 0;
+}
+
+h2 {
+    color: #111;
+}
+
+a {
+    text-decoration: none;
+    color: #fd8a24;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.artigo{
+    max-width: 638px;
+    margin: auto;
+}
+
+p {
+    font-size: 18px;
+}
+
+figure{
+    padding: 20px 0;
+    margin: 0;
+    font-size: 12px;
+}
+
+figure>img {
+    width: 100%;
+}
+
+footer{
+    background-color: #333;
+    height: 50px;
+}
+
